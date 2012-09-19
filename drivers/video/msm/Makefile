@@ -1,3 +1,4 @@
+EXTRA_CFLAGS += -I$(obj)
 obj-y := msm_fb.o
 
 ifeq ($(CONFIG_SAMSUNG_8X60_TABLET),y)
